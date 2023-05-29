@@ -1,0 +1,184 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0%;
+    margin: 0%;
+}
+
+/*###### Nav Bar ###########*/
+
+nav {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    background-color: rgb(255, 205, 187);
+    margin: 60px 170px;
+    margin-bottom: 10px;
+    padding: 0px;
+}
+
+nav ul li a {
+    display: block;
+    color:rgb(0, 0, 0);
+    font-weight: bolder;
+    min-height: 15px;
+    font-size: 20px;
+    margin: 0px;
+    padding: 20px 30px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color:  white;
+    text-decoration: 3px solid rgb(0, 0, 0) underline;
+    background-color: rgb(0, 0, 0);
+}
+
+nav img {
+    height: 100px;
+    margin: 10px;
+}
+
+.dropdown-icon {
+    display: none;
+}
+
+
+/*############ Home ##########*/
+
+.TopHomepage {
+    display: flex;
+    justify-content: center;
+    gap: 18vw;
+    align-items: center;
+    padding: 50px;
+}
+
+.Text2 {
+    display: flex;
+    gap: 8px;
+    margin: 0px;
+}
+    
+.Text2 p {
+    font-weight: bolder;
+    font-size: 50px;
+    gap: 3px;
+    margin: 0px;
+
+}
+
+.Texttxt {
+    display: inline-block;
+    width: 500px;
+}
+.Text1 p, .Text3 p {
+    font-weight: bolder;
+    font-size: 50px;
+    margin: 0px;
+}
+
+.Paragraph {
+    display: inline-block;
+    width: 400px;
+    line-height: 35px;
+    color: rgb(105, 104, 104);
+}
+
+.TopHomepage button{
+    display: block;
+    background-color: orangered;
+    border-radius: 3px;
+    height: 45px;
+    border: none;
+    color: white;
+    width: 170px;
+    margin: 15px 0px;
+    font-size: 15px;
+}
+
+.Photojpg img {
+    height: 400px;
+    width: 400px;
+    border-radius: 10%;
+}
+
+/* ######### menu section ############*/
+
+.MidHomepage {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 100px;
+    background-color: rgb(243, 241, 241);
+    padding: 30px;
+    margin-bottom: 50px;
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.Food1 img, .Food2 img, .Food3 img, .Food4 img,.Food5 img, .Food6 img {
+    height: 250px;
+    width:250px;
+    display: inline-block;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+
+h1 {
+    text-align: center;
+}
+
+.Food1 button, .Food2 button, .Food3 button, .Food4 button,.Food5 button, .Food6 button {
+    background-color: orangered;  
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    justify-content: center;
+}
+
+footer {
+    display: block;
+    background-color: rgb(255, 205, 187);
+    border-top: 1px solid grey;
+}
+footer .socials ul li img {
+    height: 20px;
+}
+
+footer .socials ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 40px;
+    margin: 0%;
+    padding-top: 15px;
+}
+
+.Navigation1 {
+    display: flex;
+    justify-content:space-evenly ;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 500;
+    margin: 0px 50px;
+    list-style: none;
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+
+.Navigation1 li a {
+    text-decoration: none;
+    color: black;
+}
